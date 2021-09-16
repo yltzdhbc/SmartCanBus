@@ -21,12 +21,12 @@
 
 ### 文件目录说明
 
-| 文件夹   | 说明            |
-| -------- | --------------- |
-| Hardware | 硬件AD工程文件  |
-| Images   | 图片            |
-| Software | 软件、stm32固件 |
-| Upper    | 上位机Cangaroo  |
+| 文件夹   | 说明               |
+| -------- | ------------------ |
+| Hardware | 硬件AD工程文件     |
+| Images   | 图片               |
+| Software | 软件、stm32固件    |
+| Tools    | Zading驱动安装软件 |
 
 ---
 
@@ -43,6 +43,12 @@
 + [x] 项目上传Github
 + [x] 初步完善使用教程
 + [ ] 项目视频
+
+1. 打板制作硬件
+2. 下载固件并烧录
+3. 使用Zading安装libusb驱动
+4. 下载cangaroo，可以使用我编译好的版本https://github.com/yltzdhbc/cangaroo_win.git
+5. 连接测试
 
 ---
 
