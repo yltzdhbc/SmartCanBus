@@ -3,6 +3,16 @@
 
 ***
 
+### 更新
+
+#### version1.0.2：增加TypeC版本，重新排列元器件，规范布线，增加差分对，提升稳定性。
+
+![c](Images/c.png)
+
+#### version1.0.1：第一个版本，具有基本功能，经测试功能正常。
+
+![micro](Images/micro.png)
+
 ### 简介
 
 ​	本项目的开发目的是为了拥有一个优雅的CAN分析仪，市面上大部分的CAN分析仪体积庞大，售价较贵。对于DIY爱好者来说，只需要简单的CAN调试器与上位机，查看数据包即可，购买CAN分析仪极其不划算。因此，本项目基于开源方案[candleLight](https://github.com/candle-usb/candleLight_fw/tree/master)开发，采用STM32F072CBT6作为主控（因为STM32系列中只有少数型号CAN与USB外设能够同时工作，因为大部分型号CAN与USB公用一个外设缓存区），下图为SmartCanBus的实物图，渲染效果图见Images文件夹。
